@@ -1,0 +1,47 @@
+{
+  "name": "wanwan-kit",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "author": "wanwan",
+  "description": "A Vue3 kit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suyuan0/wanwan-kit"
+  },
+  "homepage": "https://github.com/suyuan0/wanwan-kit#readme",
+  "keywords": [
+    "wanwan",
+    "wanwan-kit",
+    "kit",
+    "vue"
+  ],
+  "main": "dist/wanwan-kit.umd.js",
+  "module": "dist/wanwan-kit.es.js",
+  "types": "dist/wanwan-kit.es.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "publish": "npm "
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "prettier": "3.5.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vue-tsc": "^2.2.4"
+  }
+}
